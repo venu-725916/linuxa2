@@ -1,0 +1,25 @@
+
+     #include<stdio.h>
+#include<string.h>
+struct emp
+    {
+        char id[4];
+        char company[10];
+    }a1[4];
+    
+    
+    int main()
+    {
+    
+        for(int i=0;i<4;i++)
+        {
+        scanf("%s",a1[i].id);
+        scanf("%s",a1[i].company);
+        }
+        for(int i=0;i<4;i++)
+        {
+        printf(" \n%s",a1[i].id);
+        printf(" %s",a1[i].company);
+        }
+        return 0;
+    }
